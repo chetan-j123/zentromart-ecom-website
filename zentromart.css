@@ -1,0 +1,246 @@
+*{ margin: 0;
+    font-family: arial;
+}
+body{
+    background-color: rgb(235, 185, 196);
+}
+
+#zentromartlogo:hover,
+#deliverylogo:hover,
+#cart:hover,
+#returnsorders:hover,
+#signin:hover,
+#languageoptions:hover,
+#menutoggle:hover,
+p:hover,
+#bestdeal:hover
+{
+    border: 1px solid white;
+    
+}
+
+#navbar{
+   
+    height: 49px;
+    width: 1540px;
+    background-color: black;
+   position: relative;
+    left: 0px;
+    top: 0px;
+}
+#zentromartlogo{
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid black;
+}
+#deliverylogo{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 75px;
+    height: 43px;
+    margin-left: 20px;
+      border: 1px solid black;  
+}
+#productsearchbar{
+    display: inline-block;
+    width: 800px;
+    height: 30px;
+  position: relative;
+    top: -10px;
+    margin-left: 40px;
+    border:3px solid orange;
+    border-radius: 4px;
+}
+#categorydropdown{
+    display: inline-block;
+    width: 60px;
+    height:30px;
+}
+#searchinput{
+    display: inline-block;
+    width: 690px;
+    height: 25px;
+    margin-left: 0px;
+}
+button{
+    background-color: orange;
+    height: 29px;
+    width: 33px;
+}
+#languageoptions{
+      border: 1px solid black;
+    height: 40px;
+    width: 42px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+   position: relative;
+    right: -5px;
+    top: -10px;
+}
+#signin{
+      border: 1px solid black;
+    font-size:85%;
+    display: inline-block;
+   height: 35px;
+   width: 130px;
+   color: white;
+   position: relative;
+   right: -16px;
+   top: 0px;
+ }
+a{   /* border: 1px solid black;*/
+    color: white;
+    text-decoration: none;
+}
+#returnsorders{
+      border: 1px solid black;
+    height: 42px;
+    width:100px ;
+    color: rgb(250, 249, 249);
+    display: inline-block;
+    position: relative;
+    top: 0px;
+   left: 20px;
+ 
+}
+#cart{
+  border: 1px solid black;
+    color:white;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    left: 20px;
+}
+#pannel{
+    display: flex;
+    color: white;
+    position: relative;
+    top: 0px;
+     height:38px;
+    width: 1540px;
+    background-color: #253342;
+}
+#menutoggle{
+     border: 1px solid  #253342;
+    position: relative;
+    left: 20px;
+    top: 4px;
+    display: inline-block;
+    height: 28px;
+    width: 60px;
+}
+.quicklinkitem{
+ border: 1px solid  #253342;
+ width: 100px;
+ text-align: center;
+}
+#quicklinks{
+    margin-left: 20px;
+    position: relative;
+    top: 1px;
+    width: 600px;
+    height:35px;
+    display:flex ;
+    justify-content: space-evenly;
+}
+#bestdeal{
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border: 1px solid  #253342;
+ position: relative;
+ left: 630px;
+ top: 8px;
+}
+#herosection{
+   display: flex;
+   flex-direction: column;
+    height:400px;
+    width: 1540px;
+    position: relative;
+    top: 0px;
+   background-image: url(myhero6.png);
+    background-size: cover;
+}
+#heromessage{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    position: relative;
+   margin-top: 400px;
+   top: 4px;
+    left: 17px;
+    color: black;
+    background-color: white;
+    width: 1500px;
+    height: 30px;
+}
+.nano{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#topproductrow{
+    position: relative;
+    top: 50px;
+}
+#bottomproductrow{
+    margin-top: 100px;
+}
+.block{
+  a{color: blue;border-color: white;}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  text-transform: capitalize;
+     flex-wrap: wrap;
+   padding: 15px 15px 4px 15px;
+    background-color: white;
+    height: 420px;
+    width: 312px;
+}
+
+footer{
+    a{color: white;border: none;}
+    li{color: white;}
+    big{color: white;position: relative;bottom: 10px;right: 10px;}
+
+}
+#footertopbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    height: 50px;
+    width: 1540px;
+    background-color: #37475a;
+   
+}
+#footermain{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#222f3d;
+    height: 350px;
+    width: 1540px;
+}
+#footercontentwrap{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.footer-support{
+    
+    margin-left: 40px;
+    margin-right: 40px;
+}
