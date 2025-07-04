@@ -22,7 +22,7 @@ p:hover,
 #navbar{
    
     height: 49px;
-    width: 1540px;
+    width:1520px;
     background-color: black;
    position: relative;
     left: 0px;
@@ -123,7 +123,7 @@ a{   /* border: 1px solid black;*/
     position: relative;
     top: 0px;
      height:38px;
-    width: 1540px;
+    width: 1520px;
     background-color: #253342;
 }
 #menutoggle{
@@ -175,10 +175,10 @@ a{   /* border: 1px solid black;*/
     position: relative;
    margin-top: 400px;
    top: 4px;
-    left: 17px;
+    left: 22px;
     color: black;
     background-color: white;
-    width: 1500px;
+    width: 1470px;
     height: 30px;
 }
 .nano{
@@ -219,7 +219,7 @@ footer{
     position: relative;
     top: 20px;
     height: 50px;
-    width: 1540px;
+    width: 1520px;
     background-color: #37475a;
    
 }
@@ -230,7 +230,7 @@ footer{
     align-items: center;
     background-color:#222f3d;
     height: 350px;
-    width: 1540px;
+    width: 1520px;
 }
 #footercontentwrap{
     
